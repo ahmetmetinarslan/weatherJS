@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#d16ba5), color-stop(#c777b9), color-stop(#ba83ca), color-stop(#aa8fd8), color-stop(#9a9ae1), color-stop(#8aa7ec), color-stop(#79b3f4), color-stop(#69bff8), color-stop(#52cffe), color-stop(#41dfff), color-stop(#46eefa), to(#5ffbf1));
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  height: 100vh;
+}
+
+body .app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin-top: 200px;
+  border: 1px solid #D16BA5;
+  width: 700px;
+  height: 500px;
+  padding: 40px;
+  background-color: #D16BA5;
+  border-radius: 50px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body .app .header {
+  padding: 1,50px 20px 30px 20px;
+}
+
+body .app .header h1 {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+body .app .header input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: 0;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+body .app .content .city {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+body .app .content .temp {
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+body .app .content .desc {
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+body .app .content .minmax {
+  font-size: 24px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 3px;
+}
+
+body .footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+body .footer a {
+  color: white;
+  text-decoration: none;
+}
+
+body .footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */

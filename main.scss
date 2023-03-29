@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    // background-image: url('ist.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        margin-top: 200px;
+        border: 1px solid #D16BA5;
+        width: 700px;
+        height: 500px;
+        padding: 40px;
+        background-color: #D16BA5;
+        border-radius: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        .header {
+            padding: 1,50px 20px 30px 20px;
+            h1 {
+                font-size: 60px;
+                color: #fff;
+                text-shadow: 1px 3px rgba(0,0,0,.2);
+            }
+            input {
+                width: 100%;
+                padding: 10px;
+                background: transparent;
+                border: 0;
+                border-bottom: 2px solid #fff;
+                outline: 0;
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+        }
+        .content {
+            .city {
+               font-size: 35px;
+               font-weight: 500;
+               margin-bottom: 10px;
+               text-shadow: 1px 3px rgba(0,0,0,.2); 
+               margin-top: 15px;
+            }
+            .temp {
+                font-size: 120px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                text-shadow: 1px 5px rgba(0,0,0,.2);
+            }
+            .desc {
+                font-size: 25px;
+                font-style: italic;
+                text-shadow: 1px 3px rgba(0,0,0,.2);
+            }
+            .minmax {
+                font-size: 24px;
+                text-shadow: 1px 3px rgba(0,0,0,.2);
+                margin-top: 3px;
+            }
+        }
+    }
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
